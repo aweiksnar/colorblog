@@ -1,5 +1,8 @@
 <template name="postPage">
   {{#with currentPost}}
     {{> postItem}}
+    <div class="columns">
+      <a href="{{postEditPath this}}">Edit</a>
+    </div>
   {{/with}}
 </template>

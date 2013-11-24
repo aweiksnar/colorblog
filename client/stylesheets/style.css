@@ -3,6 +3,10 @@
   color: white;
 }
 
+#login-buttons a {
+  text-decoration: none;
+}
+
 a {
   text-decoration: none;
 }
@@ -13,7 +17,6 @@ nav {
   height:60px;
   position:fixed;
   width:100%;
-  overflow:hidden;
   z-index: 1;
 }
 
@@ -64,7 +67,7 @@ nav ul li{
   background-color: #CF5480;
 }
 
-input.big {
+input.big, textarea.big {
   line-height: 50px;
   font-size: 30px;
   margin-bottom: 10px;
@@ -112,3 +115,4 @@ footer {
 :-ms-input-placeholder { /* Internet Explorer 10+ */
     color:    #fff;
 }
+
