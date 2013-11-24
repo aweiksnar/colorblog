@@ -8,7 +8,7 @@
         <div class="columns">
           <div id="main_logo">colorblog</div>
           <ul>
-            <a href="#nav1"><li>nav Item 1</li></a>
+            <a href="{{postsListPath}}"><li>posts</li></a>
             <a href="#nav2"><li>nav Item 2</li></a>
             <a href="#nav3"><li>nav Item 3</li></a>
             <a href="#nav3"><li class="pink_login">Sign in</li></a>
@@ -17,7 +17,7 @@
       </div>
     </nav>
     <div id="main" class="blue_bg">
-      {{> postsList}}
+      {{renderPage}}
     </div>
   </div>
 </body>
