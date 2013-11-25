@@ -14,6 +14,18 @@ div#login-dropdown-list.accounts-dialog {
   color: white;
 }
 
+#login-buttons input[type=password], #login-buttons input[type=email], .accounts-dialog input[type=password], input[type=email], .accounts-dialog input[type=email] {
+  outline:none;
+  background-color: #CF5480;
+  border-radius: 0px;
+  border: none;
+  border-bottom: 1px solid #fff;
+}
+
+#login-buttons #signup-link {
+  float: left;
+}
+
 a {
   text-decoration: none;
 }

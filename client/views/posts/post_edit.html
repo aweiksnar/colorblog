@@ -1,15 +1,17 @@
 <template name="postEdit">
   {{#with post}}
-    <div class="row">
-      <div class="small-12 medium-5 large-5 columns">
-        <form>
-          <p><input class="big" name="title" type="text" value="{{title}}"/></p>
-          
-          <p><textarea class="big" name="content" type="text">{{content}}</textarea></p>
-          
-          <input type="submit" value="Submit" class="big_button green_bg"/>
-          <a class="big_button green_bg delete" href="#">Delete post</a>
-        </form>
+    <div class="blue_bg">
+      <div class="row">
+        <div class="small-12 medium-5 large-5 columns">
+          <form>
+            <p><input class="big" name="title" type="text" value="{{title}}"/></p>
+            
+            <p><textarea class="big" name="content" type="text">{{content}}</textarea></p>
+            
+            <input type="submit" value="Submit" class="big_button green_bg"/>
+            <a class="big_button green_bg delete" href="#">Delete post</a>
+          </form>
+        </div>
       </div>
     </div>
   {{/with}}
