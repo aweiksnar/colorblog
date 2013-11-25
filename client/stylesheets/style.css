@@ -7,6 +7,13 @@
   text-decoration: none;
 }
 
+div#login-dropdown-list.accounts-dialog {
+  background-color: #CF5480;
+  border-radius: 0px;
+  border: none;
+  color: white;
+}
+
 a {
   text-decoration: none;
 }
@@ -32,7 +39,7 @@ nav ul{
   padding-top:5px;
 }
 
-nav ul li{
+nav ul li {
   display:inline;
   padding:5px; 
 }
@@ -42,7 +49,7 @@ nav ul li{
   background-position: center center;
   min-height: 500px;
   width:100%;
-  padding-top: 100px;
+  padding: 100px 0px;
 }
 
 .light_bg {

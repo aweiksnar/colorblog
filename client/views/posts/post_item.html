@@ -3,6 +3,7 @@
     <div class="post-content columns">
       <h3>{{title}}</h3>
       <h4>{{content}}</h4>
+      {{#if ownPost}}<a href="{{postEditPath this}}">Edit</a>{{/if}}
       <a href="{{postPagePath this}}">>Show page</a>
     </div>
   </div>

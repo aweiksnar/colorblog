@@ -13,4 +13,11 @@ if (Posts.find().count() === 0) {
     title: 'A third post',
     content: 'This is another post',
   });
+  
+  for (var i = 0; i < 10; i++) {
+    Posts.insert({
+      title: 'Test post #' + i,
+      content: "Test Post Content...."
+    });
+  }
 }

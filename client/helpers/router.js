@@ -1,5 +1,6 @@
 Meteor.Router.add({
-  '/': 'postsList',
+  '/': 'home',
+  '/posts': 'postsList',
   
   '/posts/:_id': {
     to: 'postPage', 

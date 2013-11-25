@@ -1,7 +1,16 @@
 <template name="postsList">
-  <div class="row posts">
-    {{#each posts}}
-      {{> postItem}}
-    {{/each}}
+  <div class="blue_bg">
+    <div class="row posts">
+      {{#each posts}}
+        {{> postItem}}
+      {{/each}}
+      {{#if postsReady}}
+        {{#unless allPostsLoaded}}
+          <a class="load-more" href="#">Load more</a>
+        {{/unless}}
+      {{else}}
+        <div>{{> spinner}}</div>
+      {{/if}}
+    </div>
   </div>
 </template>

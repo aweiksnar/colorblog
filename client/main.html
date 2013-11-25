@@ -6,17 +6,28 @@
     <nav role="navigation">
       <div class="row">
         <div class="columns">
-          <div id="main_logo">colorblog</div>
+          <a href="{{homePath}}"><div id="main_logo">colorblog</div></a>
           <ul>
             <a href="{{postsListPath}}"><li>posts</li></a>
             {{#if currentUser}}<a href="{{postSubmitPath}}"><li>submit</li></a>{{/if}}
-            <li class="pink_login">{{loginButtons}}</li>
+            <li class="pink_login">{{loginButtons align="right"}}</li>
           </ul>
         </div>
       </div>
     </nav>
-    <div id="main" class="blue_bg">
+    <div id="main">
       {{renderPage}}
     </div>
   </div>
+  
+  <footer>
+    <div class="row">
+      <div class="small-2 columns">Lorem Ipsum</div>
+      <div class="small-2 columns">Lorem Ipsum</div>
+      <div class="small-2 columns">Lorem Ipsum</div>
+      <div class="small-2 columns">Lorem Ipsum</div>
+      <div class="small-2 columns">Lorem Ipsum</div>
+      <div class="small-2 columns">Lorem Ipsum</div>
+    </div>
+  </footer>
 </body>
